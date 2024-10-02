@@ -1,38 +1,73 @@
-import { Box, Text, Tag, Avatar, HStack, Heading } from "@chakra-ui/react";
+import PropTypes from "prop-types";
+import {
+  Image,
+  Text,
+  Heading,
+  VStack,
+  Tag,
+  HStack,
+  Spacer,
+  Flex,
+} from "@chakra-ui/react";
 
-function ArticleCard() {
+export default function BlogPostCard({
+  image,
+  author,
+  date,
+  title,
+  content,
+  tag,
+}) {
   return (
-    <Box
-      w="full"
-      h="400px"
-      backgroundImage="url('https://via.placeholder.com/800x400')"
-      backgroundSize="cover"
-      backgroundPosition="center"
-      color="white"
-      p={6}
-      display="flex"
-      flexDirection="column"
-      justifyContent="flex-end"
+    <Flex
+      direction="column"
+      maxW="sm"
+      h="100%"
+      borderWidth="1px"
+      borderRadius="sm"
+      overflow="hidden"
     >
-      {/* Category Tag */}
-      <Tag size="md" colorScheme="blue" mb={4} w={"fit-content"}>
-        Music
-      </Tag>
+      <Image src={image} alt={title} />
 
-      {/* Title */}
-      <Heading as="h3" size="md" mb={4}>
-        What Your Music Preference Says About You and Your Personality.
-      </Heading>
+      <VStack align="start" p={4} spacing={2} flex={1}>
+        <Text fontSize="sm" color="gray.500">
+          {date}
+        </Text>
 
-      {/* Author and Date */}
-      <HStack spacing={4} w={"fit-content"} fontSize={'small'}>
-        <Avatar size="sm" name="John Doe" src="https://bit.ly/ryan-florence" />
-        <Text>John Doe</Text>
-        <Text>•</Text>
-        <Text>December 29, 2017</Text>
+        <Heading as="h3" size="md">
+          {title}
+        </Heading>
+
+        <Text fontSize="sm" color="gray.600" flex={1}>
+          {content}
+        </Text>
+      </VStack>
+
+      <HStack
+        borderTop="1px solid"
+        borderColor="gray.200"
+        alignItems="center"
+        w="full"
+        p={2}
+        mt="auto"
+      >
+        <Tag size="sm" colorScheme="blue">
+          {tag}
+        </Tag>
+        <Spacer />
+        <Text fontSize="sm" color="gray.500">
+          {author}
+        </Text>
       </HStack>
-    </Box>
+    </Flex>
   );
 }
 
-export default ArticleCard;
+BlogPostCard.propTypes = {
+  image: PropTypes.string,
+  author: PropTypes.string,
+  date: PropTypes.string,
+  title: PropTypes.string,
+  content: PropTypes.string,
+  tag: PropTypes.string,
+};

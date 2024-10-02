@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "title": "What Your Music Preference Says About You and Your Personality",
+        "category": "Music",
+        "author": "John Doe",
+        "date": "December 29, 2017",
+        "image": "https://via.placeholder.com/800x400",
+        "content": "Your music taste reveals your personality traits, from introversion to openness."
+    },
+    {
+        "id": 2,
+        "title": "The Pomodoro Technique Really Works",
+        "category": "Management",
+        "author": "John Doe",
+        "date": "December 27, 2017",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Learn how time management techniques like the Pomodoro method can boost your productivity."
+    },
+    {
+        "id": 3,
+        "title": "Throwback To The Good Old Days",
+        "category": "Lifestyle",
+        "author": "John Doe",
+        "date": "December 21, 2017",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Nostalgic for simpler times? Here's how to cherish the past while living in the present."
+    },
+    {
+        "id": 4,
+        "title": "How Meditation Can Improve Your Focus",
+        "category": "Health",
+        "author": "Jane Smith",
+        "date": "January 5, 2018",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Discover how regular meditation practice can help increase your concentration and clarity."
+    },
+    {
+        "id": 5,
+        "title": "10 Tips for Remote Work Success",
+        "category": "Work",
+        "author": "Alice Johnson",
+        "date": "February 1, 2018",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Master remote work with these proven strategies for staying productive and connected."
+    },
+    {
+        "id": 6,
+        "title": "The Rise of Electric Vehicles",
+        "category": "Technology",
+        "author": "Bob Williams",
+        "date": "March 15, 2018",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Explore the impact of electric vehicles on the environment and the future of transportation."
+    },
+    {
+        "id": 7,
+        "title": "How to Balance Work and Life",
+        "category": "Lifestyle",
+        "author": "Sarah Lee",
+        "date": "April 10, 2018",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Achieving work-life balance is possible with these tips for managing your time and priorities."
+    },
+    {
+        "id": 8,
+        "title": "The Importance of Sleep for Health",
+        "category": "Health",
+        "author": "David Green",
+        "date": "May 25, 2018",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Sleep plays a vital role in your physical and mental health. Learn how to get better rest."
+    },
+    {
+        "id": 9,
+        "title": "The Benefits of Minimalism",
+        "category": "Lifestyle",
+        "author": "Emily Brown",
+        "date": "June 12, 2018",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Adopting a minimalist lifestyle can lead to less stress and more meaningful experiences."
+    },
+    {
+        "id": 10,
+        "title": "The Power of Positive Thinking",
+        "category": "Self-Help",
+        "author": "Michael Scott",
+        "date": "July 19, 2018",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "A positive mindset can transform your life. Learn how to cultivate optimism daily."
+    },
+    {
+        "id": 11,
+        "title": "Understanding Cryptocurrency",
+        "category": "Finance",
+        "author": "John Doe",
+        "date": "August 3, 2018",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Bitcoin, Ethereum, and blockchain technology explained in simple terms for beginners."
+    },
+    {
+        "id": 12,
+        "title": "Mastering Public Speaking",
+        "category": "Skills",
+        "author": "Jane Smith",
+        "date": "September 10, 2018",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Overcome your fear of public speaking with these confidence-boosting techniques."
+    },
+    {
+        "id": 13,
+        "title": "The Impact of Social Media on Mental Health",
+        "category": "Health",
+        "author": "Alice Johnson",
+        "date": "October 22, 2018",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Is social media helping or hurting your mental health? Explore the latest research."
+    },
+    {
+        "id": 14,
+        "title": "How to Build Strong Relationships",
+        "category": "Relationships",
+        "author": "Sarah Lee",
+        "date": "November 5, 2018",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Strong relationships are key to happiness. Here\u2019s how to foster meaningful connections."
+    },
+    {
+        "id": 15,
+        "title": "The Future of Artificial Intelligence",
+        "category": "Technology",
+        "author": "David Green",
+        "date": "December 1, 2018",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Artificial intelligence is transforming industries. Learn about its potential and challenges."
+    },
+    {
+        "id": 16,
+        "title": "Healthy Eating on a Budget",
+        "category": "Health",
+        "author": "John Doe",
+        "date": "January 10, 2019",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Eating healthy doesn\u2019t have to be expensive. Try these budget-friendly meal ideas."
+    },
+    {
+        "id": 17,
+        "title": "The Benefits of Daily Exercise",
+        "category": "Fitness",
+        "author": "Michael Scott",
+        "date": "February 14, 2019",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Incorporating exercise into your routine has numerous health benefits. Start small, stay consistent."
+    },
+    {
+        "id": 18,
+        "title": "How to Invest in the Stock Market",
+        "category": "Finance",
+        "author": "Jane Smith",
+        "date": "March 3, 2019",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Investing in stocks can grow your wealth over time. Here are the basics you need to know."
+    },
+    {
+        "id": 19,
+        "title": "Traveling the World on a Budget",
+        "category": "Travel",
+        "author": "Alice Johnson",
+        "date": "April 18, 2019",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Travel doesn\u2019t have to break the bank. Here\u2019s how to explore the world on a shoestring budget."
+    },
+    {
+        "id": 20,
+        "title": "How to Stay Productive While Working from Home",
+        "category": "Work",
+        "author": "Sarah Lee",
+        "date": "May 23, 2019",
+        "image": "https://via.placeholder.com/400x200",
+        "content": "Maximize your productivity while working from home with these tips and tricks."
+    }
+]

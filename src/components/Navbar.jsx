@@ -19,7 +19,7 @@ function Navbar() {
 
   const menuItems = [
     { title: "Home", path: "/" },
-    { title: "Blogs", path: "/blogs" },
+    { title: "My Blogs", path: "/blogs" },
     { title: "Login", path: "/auth/login" },
     { title: "Sign Up", path: "/auth/signup" },
     { title: "About", path: "/#about" },
